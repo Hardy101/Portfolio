@@ -1,24 +1,7 @@
-.afacad-flux-regular {
-  font-family: "Afacad Flux", serif;
-  font-optical-sizing: auto;
-  font-weight: 400;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
+@font-face {
+  font-family: helvetica;
+  src: url(../fonts/HELN.TTF);
 }
-
-.afacad-flux-semibold {
-  font-family: "Afacad Flux", serif;
-  font-optical-sizing: auto;
-  font-weight: 500;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
+.helvetica {
+  font-family: helvetica;
 }
-
-.afacad-flux-bold {
-  font-family: "Afacad Flux", serif;
-  font-optical-sizing: auto;
-  font-weight: 700;
-  font-style: normal;
-  font-variation-settings: "slnt" 0;
-}
-
