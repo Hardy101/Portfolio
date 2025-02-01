@@ -23,3 +23,6 @@
 .bs-1 {
   box-shadow: 0px 96px 132px -50px #140d5d14;
 }
+.social-media-btn{
+  @apply bg-green-primary rounded-sm p-3
+}
