@@ -49,22 +49,30 @@
           />
         </div>
       </header>
+
       <nav>
         <div class="flex justify-between px-8 py-4 text-xs">
-          <ul class="grow flex gap-4 my-auto">
-            <li class="my-auto"><img src="assets/images/logo.png" alt="" /></li>
+          <ul class="md:hidden sm-ul">
             <li class="my-auto">
-              <a href="" class="bg-gray-primary p-2 rounded-sm">Overview</a>
+              <img src="assets/images/logo.png" alt="cubex logo" />
             </li>
-            <li class="my-auto"><a href="">Home</a></li>
-            <li class="my-auto"><a href="">About</a></li>
-            <li class="my-auto"><a href="">Pricing</a></li>
-            <li class="my-auto"><a href="">Pages</a></li>
           </ul>
-          <ul class="flex gap-4 my-auto">
-            <li><a href="">Login</a></li>
+          <ul class="hidden grow md:flex gap-4 my-auto lg-ul">
+            <li class="my-auto">
+              <img src="assets/images/logo.png" alt="cubex logo" />
+            </li>
+            <li class="my-auto">
+              <a href="#" class="bg-gray-primary p-2 rounded-sm">Overview</a>
+            </li>
+            <li class="my-auto"><a href="#">Home</a></li>
+            <li class="my-auto"><a href="#">About</a></li>
+            <li class="my-auto"><a href="#">Pricing</a></li>
+            <li class="my-auto"><a href="#">Pages</a></li>
+          </ul>
+          <ul class="hidden md:flex gap-4 my-auto lg-ul">
+            <li><a href="#">Login</a></li>
             <li>
-              <a href="" class="border-1 border-gray-primary rounded-sm p-2"
+              <a href="#" class="border-1 border-gray-primary rounded-sm p-2"
                 >Register</a
               >
             </li>
@@ -523,8 +531,16 @@
 
       <footer>
         <div class="relative bg-dark-1 px-16 py-10 rounded-xl m-8 text-sm">
-          <img src="assets/images/circles.png" alt="" class="absolute top-0 right-0"/>
-          <img src="assets/images/big-bg-circle-1.png" alt="" class="absolute bottom-0 left-0 w-48 "/>
+          <img
+            src="assets/images/circles.png"
+            alt=""
+            class="absolute top-0 right-0"
+          />
+          <img
+            src="assets/images/big-bg-circle-1.png"
+            alt=""
+            class="absolute bottom-0 left-0 w-48"
+          />
           <div class="footer-body grid grid-cols-5 gap-16">
             <div class="grid gap-2 col-span-2 text-white my-auto">
               <h2 class="text-xl font-bold flex gap-2">
