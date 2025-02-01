@@ -1,3 +1,13 @@
+@import "tailwindcss";
+
+@theme {
+  --color-clifford: #da373d;
+  --color-green-primary: #c2ff66;
+  --color-gray-primary: #f7f7f8;
+  --color-gray-secondary: #696977;
+  --color-gray-3: #4d4d56;
+}
+
 @font-face {
   font-family: helvetica;
   src: url(../fonts/HELN.TTF);
