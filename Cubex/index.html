@@ -49,12 +49,24 @@
           />
         </div>
       </header>
-
-      <nav class="hidden md:block">
-        <div class="flex justify-between px-8 py-4 text-xs">
-          <ul class="md:hidden sm-ul">
+      <nav>
+        <div class="flex justify-between px-4 md:px-8 py-4 text-xs">
+          <ul class="w-full flex md:hidden justify-between sm-ul">
             <li class="my-auto">
-              <img src="assets/images/logo.png" alt="cubex logo" />
+              <img
+                src="assets/images/logo.png"
+                alt="cubex logo"
+                class="w-5 md:w-6"
+              />
+            </li>
+            <li class="my-auto">
+              <button>
+                <img
+                  src="assets/images/menu-button.png"
+                  alt="menu button"
+                  class="w-5 md:w-6"
+                />
+              </button>
             </li>
           </ul>
           <ul class="hidden grow md:flex gap-4 my-auto lg-ul">
@@ -80,11 +92,13 @@
         </div>
       </nav>
 
-      <section id="hero" class="hidden md:block">
-        <div class="px-10 md:px-20 py-10">
-          <div class="hero-body flex flex-col md:flex-row gap-10 justify-center">
+      <section id="hero">
+        <div class="px-4 md:px-20 py-6 md:py-10">
+          <div
+            class="hero-body flex flex-col md:flex-row gap-10 justify-center"
+          >
             <div class="hero-body-text md:w-1/2">
-              <div class="circles flex gap-2 ml-2">
+              <div class="circles flex gap-2 ml-1 md:ml-2">
                 <img src="assets/images/circle-red.png" alt="" />
                 <img src="assets/images/circle-orange.png" alt="" />
                 <img src="assets/images/circle-green.png" alt="" />
@@ -98,13 +112,13 @@
                   metus nunc, fermentum id ex non, dapibus hendrerit eros.</span
                 >
                 <button
-                  class="flex gap-3 mt-4 bg-green-primary text-sm px-8 py-2 afacad-flux-medium rounded-md"
+                  class="flex gap-3 mt-4 bg-green-primary text-xs md:text-sm px-8 py-2 afacad-flux-medium rounded-md"
                 >
                   <span>Get Started</span>
                   <img
                     src="assets/images/right-arrow.png"
                     alt="right-arrow"
-                    class="my-auto"
+                    class="my-auto w-3"
                   />
                 </button>
               </p>
@@ -128,7 +142,9 @@
 
       <section id="design" class="hidden md:block">
         <div class="px-4 md:px-30 py-20">
-          <div class="mx-auto w-3/5 flex flex-col md:flex-row gap-20 justify-between">
+          <div
+            class="mx-auto w-3/5 flex flex-col md:flex-row gap-20 justify-between"
+          >
             <h2 class="text-2xl font-bold">
               Beautiful designs, totally customized in minutes.
             </h2>
